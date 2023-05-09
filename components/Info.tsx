@@ -1,8 +1,9 @@
+import Image from "next/image"
 const Info = () => {
     return (
         <div className="p-6 block bg-[var(--bg-color)]  relative">
             <div className="absolute rounded-full bottom-[80%] right-[50%] translate-x-[50%] bg-gradient1 w-44 h-44 flex justify-center items-center">
-                <img src="/logo-low-white-black.png" className="w-36 h-36 rounded-full " alt='profile' />
+                <Image src="/logo-low-white-black.png" className="w-36 h-36 rounded-full " alt='profile' height={40} width={40} />
             </div>
             <div className="leading-9 pt-10">
                 <h1 className="text-[2rem] text-bg-gradient font-extrabold mb-2">DateTech Software</h1>
