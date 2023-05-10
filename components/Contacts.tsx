@@ -64,7 +64,7 @@ const Contacts = () => {
                                 <FaGlobe className='text-white text-xl' />
                             </span>
                             <p className='px-3 text-ellipsis w-full overflow-hidden font-semibold group-hover:text-gray-400 transition'>
-                                Mayank-Portfolio.vercel.app
+                                Date-tech.vercel.app
                             </p>
                         </div>
                     </Link>
