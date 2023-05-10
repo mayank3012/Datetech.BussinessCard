@@ -6,8 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --themeColor: rgb(92, 147, 63);
-  --bg-color:rgb(47,47,47);
+  --themeColor: #22327f;
+  --bg-color: #22327f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,18 +28,24 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.bg-gradient1{
-  background: rgb(5,5,5);
-  background: linear-gradient(156deg, rgba(5,5,5,1) 0%, rgba(57,57,61,0.8239670868347339) 38%, rgba(154,161,162,0.9808298319327731) 100%);
+.bg-gradient1 {
+  background: rgb(5, 5, 5);
+  background: linear-gradient(
+    156deg,
+    rgba(237, 237, 237, 1) 0%,
+    rgba(161, 171, 227, 0.8239670868347339) 43%,
+    rgba(154, 179, 241, 0.9808298319327731) 100%
+  );
 }
 
-.text-bg-gradient{
-
-background: rgb(237,237,237);
-background:  linear-gradient(156deg, rgba(237,237,237,1) 0%, rgba(28,205,24,0.8239670868347339) 54%, rgba(41,128,51,0.9808298319327731) 100%);
--webkit-background-clip: text;
+.text-bg-gradient {
+  background: rgb(237, 237, 237);
+  background: linear-gradient(
+    156deg,
+    rgba(237, 237, 237, 1) 0%,
+    rgba(161, 171, 227, 0.8239670868347339) 43%,
+    rgba(154, 179, 241, 0.9808298319327731) 100%
+  );
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  }
-
-
-
+}
